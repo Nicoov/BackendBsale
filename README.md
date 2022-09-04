@@ -8,3 +8,6 @@
 
 Inicializar Proyecto
 - npm run dev 
+
+
+El codigo se encuentra documentado
