@@ -4,6 +4,8 @@ const cors = require('cors');
 
 const connection = require('../database')
 
+//query que muestra todos los productos
+
 router.get('/', (req, res) => {
     connection.query("SELECT * FROM product", (err, rows, field) => { 
         if (!err) {

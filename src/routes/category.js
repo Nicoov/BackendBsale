@@ -4,6 +4,10 @@ const cors = require('cors');
 
 const connection = require('../database')
 
+// Creacion de las query desde mysql
+
+// query de productos por categorias 
+
 router.get('/energetica', (req, res) => {
     connection.query("SELECT * FROM product WHERE category = 1", (err, rows, field) => { 
         if (!err) {

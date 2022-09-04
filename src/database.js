@@ -1,5 +1,7 @@
 const mysql = require('mysql');
 
+//Creacion de la conexion a la base de datos mysql, con las credenciales dadas 
+
 const connection = mysql.createConnection({
     host: 'mdb-test.c6vunyturrl6.us-west-1.rds.amazonaws.com',
     user: 'bsale_test',
@@ -9,6 +11,7 @@ const connection = mysql.createConnection({
 
 
 
+//Prueba de la conexion 
 
 connection.connect((err) => {
     if (err) {
