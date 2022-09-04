@@ -4,7 +4,7 @@
 #Importante
 - Dado que el proyecto no se pudo deployar se tiene que utilizar npm 
 
-Backend
+#Backend
 
 Inicializar Proyecto
 - npm run dev 
