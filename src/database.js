@@ -14,7 +14,7 @@ connection.connect((err) => {
     if (err) {
         res.status(500).send('ERROR');
     } else {
-        console.log('bD CONNECTED');
+        console.log('BD CONNECTED');
     }
 });
 
@@ -27,9 +27,6 @@ setInterval(function () {
 
 
 
-// // testing a select every 3 seconds :
-// // to try the code you can stop mysql service => select will fail
-// // if you start mysql service => connection will restart correctly => select will succeed
 // setInterval(function () {
 //     connection.query('select 1', function (err, results) {
 //         if (err) console.log('SELECT', err.code);
